@@ -1,0 +1,12 @@
+# 정답은
+
+### 작은글씨
+## 중간글씨
+# 큰글씨
+
+@ 이건 뭐가 있을까?
+@@ 22
+
+git remote add origin [원격저장소 주소]
+git push -origin main 에서 stream 이라는 단어가 나온것은 origin과 local 사이의 흐름을 설정하지 않아서 에러가 나옵니다
+git push -u -origin main에서처럼 -u 옵션을 주세요
