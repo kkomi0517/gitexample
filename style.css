@@ -1,0 +1,23 @@
+/* body{background-color: red;} */
+* {box-sizing: border-box;}
+
+#myinput {width: 100%;
+font-size: 16px;
+padding: 12px 20px 12px 40px;
+border: 1px solid #ddd;
+margin-bottom: 12px;
+}
+#mytable{width: 100%;
+border: 1px solid #ddd;
+font-size: 18px;
+border-collapse: collapse; 
+/* border의 여백을 collapse를 주면 없어짐 border-collapse:collapse; */
+}
+
+#mytable th,
+#mytable td {text-align: left; padding: 12px;}
+#mytable tr { border-bottom: 1px solid #ddd;}
+#mytable tr.header,
+#mytable tr:hover {
+     background-color: #f1f1f1;
+}
